@@ -34,9 +34,7 @@ body{
   transform-origin: left;
   transform-style: preserve-3d;
 }
-.container #flip:checked ~ .cover{
-  transform: rotateY(-180deg);
-}
+
  .container .cover .front,
  .container .cover .back{
   position: absolute;
