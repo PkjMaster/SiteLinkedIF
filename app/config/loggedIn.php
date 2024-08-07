@@ -9,5 +9,5 @@ if (isset($_SESSION['id_aluno'])) {
 }
 
 if (isset($_SESSION['id_professor'])) {
-  header("Location: ../private/areaProf.php");
+  header("Location: ../private/areaProfessor.php");
 }
